@@ -14,16 +14,17 @@
 /* LAYOUT
 /*******************************************/
 body{
-  background-color: rgb(88, 30, 45);
+  background-color: antiquewhite;
   font-family: 'Akshar', sans-serif;
   display: flex;
   justify-content: center;
+  color: antiquewhite;
 }
 
 main{
-  background-color: antiquewhite;
+  background-color: rgb(88, 30, 45);
   border-radius: 25px;
-  border: 15px double rgb(88, 30, 45);
+  border: 15px double antiquewhite;
   margin: 5% 0 0 0;
   padding: 15px 50px 25px 50px;
   display: flex;
@@ -38,45 +39,10 @@ main * {
   text-align: center;
 }
 
-.drinkResult * {
-  display: block;
-}
-
-input{
-  margin: 5px;
-}
-
-.drinkResult{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media all and (min-width: 600px) {
-  section section{
-    width: 50%;
-  }
-}
-
-@media all and (max-width: 599px) {
-  section section{
-    width: 100%;
-  }
-}
-
-.drinkIngredients{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-span{
-  display: block;
-  width: 100%;
-}
-
 img{
-  margin: 0 auto;
-  height: 200px;
+  margin: 10px auto;
+  max-height: 400px;
+  max-width: 80%;
   /* background-color: rgb(230, 215, 196); */
   border-radius: 10px;
 }
